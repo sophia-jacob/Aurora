@@ -3,16 +3,26 @@ p{
     text-align: center;
     font-family: "Playfair Display", serif;
     font-optical-sizing: auto;
-    font-weight: 500;
+    font-size: 30px;
     font-style: normal;
 }
 
 body{
-    background: lavender;
+    /* background-image: linear-gradient(lavender, rgb(213, 145, 213));
+    background-size: 200%, 200%; */
+    background-image: url('https://htmlcolors.com/gradients-images/53-light-purple-gradient.jpg');
+    background-size: 100vw 100vh;
+
+
 }
 
-.purple-text{
-    color: purple;
+.header{
+    text-align: center;
+    font-size: 50px;
+    background: #e297f5;
+    border-width: 20px;
+    border-radius: 30px;
+    font-weight: 500;
 }
 
 
@@ -21,4 +31,92 @@ body{
   font-optical-sizing: auto;
   font-weight: 500;
   font-style: normal;
+}
+
+.left{
+    text-align: left;
+    padding-left: 50px;
+    color: maroon;
+    font-family: "Playfair Display", serif;
+    font-optical-sizing: auto;
+    font-size: 30px;
+    font-style: normal;
+}
+.centerleft{
+    text-align: left;
+    padding-left: 350px;
+    color: maroon;
+    font-family: "Playfair Display", serif;
+    font-optical-sizing: auto;
+    font-size: 30px;
+    font-style: normal;
+}
+
+.centerright{
+    text-align: left;
+    padding-left: 700px;
+    color: maroon;
+    font-family: "Playfair Display", serif;
+    font-optical-sizing: auto;
+    font-size: 30px;
+    font-style: normal;
+}
+.right{
+    text-align: right;
+    padding-right: 50px;
+}
+
+.image{
+    border-radius: 8px;
+    width: 300px;
+    display: flex;
+    justify-content: left;
+    margin-top: 20px;
+}
+
+/* .imagecenter{
+    border-radius: 8px;
+    width: 200px;
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    margin-right: 50px;
+} */
+
+.button{
+    text-decoration: none;
+    color: maroon;
+    border-style: solid;
+    border-width: medium;
+    border-radius: 5px;
+    padding: 5px;
+    position: relative;
+}
+/* @keyframes bounce{
+    0%{
+        top: 0px;
+    }
+    50%{
+        top: 10px;
+    }
+    100%{
+        top:0px;
+    }
+
+}
+.button-text{
+    position: relative;
+    animation-name: bounce;
+    animation-duration: 0.5s;
+    animation-iteration-count: infinite;
+} */
+.button:hover{
+    color: #843698;
+    cursor: url('pic.jpg'), auto;
+}
+
+.input{
+    text-align: left;
+    font-size: 20px;
+    color: maroon;
 }
