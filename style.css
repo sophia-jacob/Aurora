@@ -120,3 +120,18 @@ body{
     font-size: 20px;
     color: maroon;
 }
+
+.paragraph1{
+    border: solid;
+    border-color: purple;
+}
+
+.paragraph2{
+    border: dotted;
+    border-color: blue;
+}
+
+.paragraph3{
+    border: dashed;
+    border-color: red;
+}
